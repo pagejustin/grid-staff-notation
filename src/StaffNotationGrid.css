@@ -1,9 +1,30 @@
-.staff-notation-grid {
-    display: flex;
-    flex-direction: column;
+  .staff-notation-grid {
+    width: 288px; /* Set grid width */
+    padding: 36px; /* Height is half of width */
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(5, auto);
+    position: absolute;
   }
   
+  /* Rest of your styles... */
+  
+
   .grid-row {
-    display: flex;
+    display: contents;
   }
+  
+  .notation-cell {
+    width: 50px; /* Adjust based on grid size */
+    height: 25px; /* Adjust based on grid size */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+  }
+  
+  /* Add styles for horizontal and vertical lines here */
   
