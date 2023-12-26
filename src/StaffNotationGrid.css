@@ -1,0 +1,9 @@
+.staff-notation-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
