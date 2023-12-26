@@ -8,12 +8,13 @@
   }
   
   .circle {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+    width: 40px; /* Adjust size as needed */
+    height: 26px; /* Adjust size as needed */
     background-color: blue;
     border-radius: 50%;
     position: absolute;
-    top: -15px; /* Half of the width/height to center it on the edge */
+    top: -13px; /* Half of the width/height to center it on the edge */
     left: -15px; /* Half of the width/height to center it on the edge */
-  }  
+    rotate: -10deg;
+  }    
   
